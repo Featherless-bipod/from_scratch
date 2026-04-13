@@ -1,5 +1,4 @@
 /.venv
 /checkpoints
-/*_outputs
 /data
 __pycache__/
