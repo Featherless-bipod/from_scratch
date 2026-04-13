@@ -44,15 +44,11 @@ Notice how the `loss_sb` (Sinkhorn optimal transport matching objective) decreas
 ### Generation Quality Over Time
 Using the `bridge` engine, watch the progression of structural coherence from the first epoch up to convergence:
 
-````carousel
-![Epoch 1: Initial Mapping](bridge_outputs/samples_bridge_epoch_1.png)
-<!-- slide -->
-![Epoch 15: Structural Formulation](bridge_outputs/samples_bridge_epoch_15.png)
-<!-- slide -->
-![Epoch 50: Sharpening Boundaries](bridge_outputs/samples_bridge_epoch_50.png)
-<!-- slide -->
-![Epoch 100: Reconstructed Sample Matrix](bridge_outputs/samples_bridge_epoch_100.png)
-````
+| Epoch 1 (Initial Mapping) | Epoch 15 (Structural Formulation) |
+| :---: | :---: |
+| ![Epoch 1](bridge_outputs/samples_bridge_epoch_1.png) | ![Epoch 15](bridge_outputs/samples_bridge_epoch_15.png) |
+| **Epoch 50 (Sharpening Boundaries)** | **Epoch 100 (Reconstructed Samples)** |
+| ![Epoch 50](bridge_outputs/samples_bridge_epoch_50.png) | ![Epoch 100](bridge_outputs/samples_bridge_epoch_100.png) |
 
 ### The Mathematics Behind the Adversarial Flow
 * The models utilize a stable `0.5` momentum setup with perfectly balanced One-sided label smoothing targeted heavily to resist discriminator overconfidence.
