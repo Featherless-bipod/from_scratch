@@ -1,0 +1,1 @@
+This is the CUDA implementaiton of the MLP for the MNIST dataset.

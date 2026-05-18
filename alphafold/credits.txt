@@ -1,0 +1,8 @@
+NOTE: 
+Alphafold2 or any of its components is not in any way of my creation, 
+all credit goes to the Google Deepmind team. 
+
+Resources: 
+- https://www.youtube.com/@KilianMandon
+- https://www.nature.com/articles/s41586-021-03819-2
+- https://github.com/google-deepmind/alphafold

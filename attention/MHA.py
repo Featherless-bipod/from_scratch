@@ -3,23 +3,15 @@ import math
 from torch import nn
 
 class MultiHeadAttention(nn.Module):
-    """
-    A MultiHeadAttention module with optional bias and optional gating.
-    """
 
     def __init__(self, c_in, c, N_head, attn_dim, gated=False, is_global=False, use_bias_for_embeddings=False):
         """
-        Initializes the module. MultiHeadAttention theoretically consists of 
-        N_head separate linear layers for the query, key and value embeddings.
-        However, the embeddings can be computed jointly and split afterwards,
-        so we only need one query, key and value layer with larger c_out.
-
         Args:
             c_in (int): Input dimension for the embeddings.
-            c (int): Embedding dimension for each individual head.
-            N_head (int): Number of heads.
             attn_dim (int): The dimension in the input tensor along which
                 the attention mechanism is performed.
+            c (int): Embedding dimension for each individual head. 
+            N_head (int): Number of heads.
             gated (bool, optional): If True, an additional sigmoid-activated 
                 linear layer will be multiplicated against the weighted 
                 value vectors before feeding them through the output layer. 

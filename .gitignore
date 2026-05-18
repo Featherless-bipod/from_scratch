@@ -1,4 +1,7 @@
 /.venv
-/checkpoints
-/data
-__pycache__/
+/diffusion/checkpoints
+/diffusion/data
+/diffusion/__pycache__
+/mlp/data
+/mlp/arc
+/mlp/__pychache__

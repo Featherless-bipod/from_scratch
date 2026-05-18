@@ -1,4 +1,4 @@
-# Generative Models From Scratch 🚀
+# Generative Models From Scratch: Diffusion
 
 A from-scratch, custom PyTorch implementation of modern generative techniques including **Flow Matching**, **Schrödinger Bridges**, and **Generative Adversarial Networks (GANs)** powered by a generic Transformer-based core (`MicroDiT`). 
 
