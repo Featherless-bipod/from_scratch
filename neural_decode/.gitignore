@@ -1,0 +1,6 @@
+.env
+lightning_logs/
+datasets/
+.vscode
+.ipynb_checkpoints
+__pycache__
